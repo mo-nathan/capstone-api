@@ -1,4 +1,4 @@
 class PartySerializer < ActiveModel::Serializer
-  attributes :id, :theme, :date, :phone_number
+  attributes :id, :theme, :date, :description
   has_one :user
 end

@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 20180525181247) do
   create_table "parties", force: :cascade do |t|
     t.string "theme"
     t.date "date"
-    t.string "phone_number"
+    t.string "description"
     t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

@@ -50,6 +50,6 @@
 
   # Only allow a trusted parameter "white list" through.
   def party_params
-    params.require(:party).permit(:theme, :date, :phone_number, :user_id)
+    params.require(:party).permit(:theme, :date, :description, :user_id)
   end
 end
